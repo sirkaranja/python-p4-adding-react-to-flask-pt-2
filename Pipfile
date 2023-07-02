@@ -12,7 +12,7 @@ flask-cors = "3.0.10"
 flask-migrate = "3.1.0"
 flask-sqlalchemy = "2.5.1"
 gunicorn = "20.1.0"
-honcho = "1.1.0"
+honcho = "*"
 importlib-metadata = "6.0.0"
 importlib-resources = "5.10.0"
 itsdangerous = "2.1.2"
@@ -25,8 +25,10 @@ six = "1.16.0"
 sqlalchemy = "1.4.41"
 sqlalchemy-serializer = "1.4.1"
 werkzeug = "2.2.2"
+pipenv = "*"
+shell = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8.13"
+python_version = "3.11.2"
